@@ -1,4 +1,8 @@
 # ask the user to input ten numbers
+numbers = []
+for numbers in range(10):
+    num = int(input(f"Enter Number {numbers+1}: "))
+numbers.append(num)
 # use loop and 
 # use if else statement 
 # print the numbers ith duplication
