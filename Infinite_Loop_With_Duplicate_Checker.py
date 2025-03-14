@@ -1,4 +1,4 @@
-# ask the user to input ten numbers
+# ask the user to input numbers that is valid
 print("Please Enter numbers: ")
 
 numbers = []  
