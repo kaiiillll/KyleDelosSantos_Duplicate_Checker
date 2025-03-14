@@ -5,7 +5,6 @@ numbers = []
 duplicates = set()  
 seen = set()  
 
-
 for num in range(10): # use loop 
     number = int(input(f"Enter number {num+1}: ")) 
     numbers.append(number)  
