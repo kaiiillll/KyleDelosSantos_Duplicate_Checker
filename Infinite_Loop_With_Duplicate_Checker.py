@@ -6,10 +6,7 @@ while True:  # Loop continuing until the input is invalid
         numbers.append(int(user_input))  
     else:
         print("That is Invalid!!!!") # stopping when the input is invalid
-        break  
-    
-
-
+        break
 
 
 
