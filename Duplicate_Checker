@@ -1,8 +1,23 @@
 # ask the user to input ten numbers
-numbers = []
-for numbers in range(10):
-    num = int(input(f"Enter Number {numbers+1}: "))
-numbers.append(num)
-# use loop and 
-# use if else statement 
-# print the numbers ith duplication
+print("Enter ten numbers:")
+
+numbers = []  
+duplicates = set()  
+seen = set()  
+
+
+for num in range(10): # use loop 
+    number = int(input(f"Enter number {num+1}: ")) 
+    numbers.append(number)  
+    
+    if number  in seen: # use if else statement 
+        duplicates.add(number)  
+    else:
+        seen.add(number)  
+
+print("You entered:", numbers)
+
+if duplicates: # print the numbers with duplication
+    print("Duplicate numbers:", duplicates)
+else:
+    print("There is no Duplicates")
