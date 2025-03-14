@@ -10,7 +10,7 @@ while True:  # Loop continuing until the input is invalid
 
     if user_input.isdigit():  
         number = int(user_input)
-        numbers.append(number) 
+        numbers += [number]  
     
         if number  in seen: # use if else statement 
             duplicates.add(number)  
